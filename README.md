@@ -3,15 +3,26 @@
  http://assignment5_react-context-api_use-reducer-react-hoock.surge.sh/
  
  
- ### State Variable
-
-  let [count, setCount] = useState();
-  
-  update variable 'count' by using 'setCount' 
-
  ### State
 
   a plce where, we put centerilized data. whenever state will change , all the values belongs to state will change in whole website. 
+
+
+ ### React Hook
+
+   Allows us to use 'state', 'refs' and other React features without writing a class.
+
+ 
+ ### useState Hook
+
+  allows us to use 'state' in functional components. Takes single-initial-value of state as argument >> returns array of 2 elements. 
+
+    Syntax:   let [state-var, function_state-var_updater] = useState(initial-value);
+  
+  let [count, setCount] = useState(1);
+  
+  update variable 'count' by using 'setCount' 
+
 
  ### React Context APi 
 
@@ -19,8 +30,7 @@
 
   In Context API, create 'counterContext' variable. It will access globaly.  
   
-  Manipulate/manage State from Parent level to Child level.
-
+  Manipulate/manage State from Parent level to Child level without having pass 'props' manually at each level  in tree.
 
  
  ### useReducer React Hoock
