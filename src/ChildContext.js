@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import counterContext from './CounterContext';
 
-const ChildCounterContext = () => {
+const ChildContext = () => {
     let counterValue = useContext(counterContext)
     //console.log(counterValue)
 
@@ -17,4 +17,4 @@ const ChildCounterContext = () => {
     )
 }
 
-export default ChildCounterContext;
+export default ChildContext;

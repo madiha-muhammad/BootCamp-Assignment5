@@ -1,11 +1,11 @@
 import React from 'react';
-import ChildCounterContext from './ChildCounterContext';
+import ChildContext from './ChildContext';
 import ChildReducer from './ChildReducer';
 
 const Parent = (props) => {
     return (
         <div>
-            <ChildCounterContext />
+            <ChildContext />
             <ChildReducer />
         </div>
     )
