@@ -13,11 +13,16 @@
 
   Craete CounterContext.js 
 
-  create 'counterContext' variable in it. It will access globaly.  
+  In Context API, create 'counterContext' variable. It will access globaly.  
+  
+  Manipulate/manage State from Parent level to Child level.
 
  
  ### useReducer React Hoock
 
+  Reducer concept came from Redux.
+
+  
 
  ### Errors
 CounterContext
