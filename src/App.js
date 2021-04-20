@@ -4,10 +4,11 @@ import CounterContext from './CounterContext';
 import { useState } from 'react';
 
 function App() {
-  let [count, setCount] = useState(25)
+  let countState = useState(1)
+  // let [count, setCount] = useState(25)
 
   return (
-    <CounterContext.Provider value={count}>
+    <CounterContext.Provider value={countState}>
       <div>
         <Parent />
       </div>
